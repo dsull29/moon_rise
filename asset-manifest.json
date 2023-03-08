@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/moon_rise/static/css/main.e6c13ad2.css",
+    "main.js": "/moon_rise/static/js/main.8fef22de.js",
+    "static/js/787.e91d69ce.chunk.js": "/moon_rise/static/js/787.e91d69ce.chunk.js",
+    "index.html": "/moon_rise/index.html",
+    "main.e6c13ad2.css.map": "/moon_rise/static/css/main.e6c13ad2.css.map",
+    "main.8fef22de.js.map": "/moon_rise/static/js/main.8fef22de.js.map",
+    "787.e91d69ce.chunk.js.map": "/moon_rise/static/js/787.e91d69ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.8fef22de.js"
+  ]
+}
