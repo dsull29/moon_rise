@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import SunCalc from 'suncalc';
+import MoonriseCard from './MoonriseCard';
+import SunsetCard from './SunsetCard';
 
 function Homepage() {
   const [latitude, setLatitude] = useState(null);
@@ -45,10 +47,10 @@ function Homepage() {
     <div>
       {timezone && moonrise && sunset ? (
       <div><p>
-          The moon {moonphase} will rise at { moonrise.toLocaleTimeString('en-US', { timezone })} today at your current location ({latitude}, {longitude}).
+          <MoonriseCard moonriseTime={ moonrise} timezone = {timezone} latitude = {latitude} longitude = {longitude}/>
         </p>
         <p>
-          The sun will set at { sunset.toLocaleTimeString('en-US', { timezone })} today at your current location ({latitude}, {longitude}).
+          <SunsetCard sunsetTime= { sunset.toLocaleTimeString('en-US', { timezone })} />
         </p>
 </div>
       ) : (
