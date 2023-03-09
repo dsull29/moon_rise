@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/moon_rise/static/css/main.e6c13ad2.css",
-    "main.js": "/moon_rise/static/js/main.3bc8bff4.js",
+    "main.css": "/moon_rise/static/css/main.fb35d48d.css",
+    "main.js": "/moon_rise/static/js/main.65d73654.js",
     "static/js/787.e91d69ce.chunk.js": "/moon_rise/static/js/787.e91d69ce.chunk.js",
     "index.html": "/moon_rise/index.html",
-    "main.e6c13ad2.css.map": "/moon_rise/static/css/main.e6c13ad2.css.map",
-    "main.3bc8bff4.js.map": "/moon_rise/static/js/main.3bc8bff4.js.map",
+    "main.fb35d48d.css.map": "/moon_rise/static/css/main.fb35d48d.css.map",
+    "main.65d73654.js.map": "/moon_rise/static/js/main.65d73654.js.map",
     "787.e91d69ce.chunk.js.map": "/moon_rise/static/js/787.e91d69ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.3bc8bff4.js"
+    "static/css/main.fb35d48d.css",
+    "static/js/main.65d73654.js"
   ]
 }
