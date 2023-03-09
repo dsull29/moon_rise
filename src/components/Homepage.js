@@ -3,6 +3,9 @@ import SunCalc from 'suncalc';
 import CurrentLocation from './CurrentLocation';
 import MoonriseCard from './MoonriseCard';
 import SunsetCard from './SunsetCard';
+import MoonPhaseCard from './MoonPhaseCard';
+import Header from './Header';
+import Footer from './Footer';
 
 function Homepage() {
   const [latitude, setLatitude] = useState(null);
@@ -46,15 +49,18 @@ function Homepage() {
 
   return (
     <div>
+      <Header></Header>
       {timezone && moonrise && sunset ? (
         <div>
           <CurrentLocation  latitude = {latitude} longitude = {longitude} />
-          <MoonriseCard moonriseTime={ moonrise} timezone = {timezone}/>
           <SunsetCard sunsetTime= { sunset.toLocaleTimeString('en-US', { timezone })} />
+          <MoonriseCard moonriseTime={ moonrise} timezone = {timezone}/>
+          <MoonPhaseCard moonPhase={ moonphase} />
         </div>
       ) : (
         <p>Loading...</p>
       )}
+      <Footer></Footer>
     </div>
   );
 }
