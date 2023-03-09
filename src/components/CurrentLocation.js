@@ -18,8 +18,8 @@ const CurrentLocation = ({ latitude, longitude }) => {
               sx={{
                 color: "#fff",
                 fontWeight: "bold",
-                "@media screen and (max-width: 600px)": {
-                  fontSize: "1.5rem", // change font size on screens smaller than 600px
+                "@media screen and (max-width: 700px)": {
+                  fontSize: "1.4rem", // change font size on screens smaller than 600px
                 },
               }}
             >
