@@ -9,7 +9,7 @@ const SunsetCard = ({ sunsetTime }) => {
         <Typography variant="h6" sx={{ color: '#fff' }}>
           Sunset Time
         </Typography>
-        <Typography variant="h4" sx={{ color: '#fff', marginLeft: 'auto' }}>
+        <Typography variant="h6" sx={{ color: '#fff', marginLeft: 'auto' }}>
           {sunsetTime}
         </Typography>
       </CardContent>

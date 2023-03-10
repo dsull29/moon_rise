@@ -13,7 +13,7 @@ function MoonriseCard({ moonriseTime, timezone, latitude, longitude }) {
 
         <Box sx={{ marginLeft: 'auto' }}>
           {moonriseTime &&
-            <Typography variant="h4" sx={{ color: '#fff', fontWeight: 'bold' }}>
+            <Typography variant="h6" sx={{ color: '#fff', fontWeight: 'bold' }}>
  
               { moonriseTime}
             </Typography>}
