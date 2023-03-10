@@ -15,7 +15,7 @@ function MoonriseCard({ moonriseTime, timezone, latitude, longitude }) {
           {moonriseTime &&
             <Typography variant="h4" sx={{ color: '#fff', fontWeight: 'bold' }}>
  
-              { moonriseTime.toLocaleTimeString("en-US", {timeZone: timezone })}
+              { moonriseTime}
             </Typography>}
         </Box>
       </CardContent>

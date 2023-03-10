@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear(); // get current year
 
   return (
-    <Card sx={{ backgroundColor: '#000', color: 'white', paddingTop : "10rem" }}>
+    <Card sx={{ backgroundColor: '#000', color: 'white', paddingTop : "5rem" }}>
       <CardContent sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <Link href="https://github.com/dsull29/moon_rise" underline="none" color="inherit" sx={{ mb: 1 }}>
           <GitHubIcon></GitHubIcon>
