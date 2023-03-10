@@ -66,7 +66,7 @@ const useStyles = makeStyles({
 function MoonPhase({ moonIllumination }) {
   const classes = useStyles();
   const [isRising, setIsRising] = useState(true);
-  var moonPhaseText = getMoonPhase(moonIllumination.fraction);
+  var moonPhaseText = getMoonPhase(moonIllumination.phase);
 
   return (
     <div className={classes.container}>
