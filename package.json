@@ -1,8 +1,9 @@
 {
-  "name": "moon_rise",
-  "homepage": "https://dsull29.github.io/moon_rise",
+  "name": "moonrise",
+  "homepage": "https://moonrise.doversummit.dev",
   "version": "0.1.0",
   "private": true,
+  "publicUrl": "/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
